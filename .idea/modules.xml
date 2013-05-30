@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidMavenTest.iml" filepath="$PROJECT_DIR$/AndroidMavenTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DaggerTests/DaggerTests.iml" filepath="$PROJECT_DIR$/DaggerTests/DaggerTests.iml" />
+    </modules>
+  </component>
+</project>
+

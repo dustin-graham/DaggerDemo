@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Second:"
+        android:id="@+id/secondLabel"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CurrentSegment:"
+        android:id="@+id/segmentLabel"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/secondLabel"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/secondValue"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/secondLabel"
+        android:layout_alignTop="@+id/secondLabel"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/segmentValue"
+        android:layout_toRightOf="@id/segmentLabel"
+        android:layout_alignLeft="@id/secondValue"
+        android:layout_alignTop="@id/segmentLabel"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>
+
